@@ -1,4 +1,5 @@
 # ruby
+[GitHub 링크](https://github.com/training-mode/ruby/blob/master)
 
 ## Purpose
 
