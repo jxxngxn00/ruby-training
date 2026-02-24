@@ -14,4 +14,11 @@ game_rankings = {
 }
 
 # Your code goes here
+def avg_score(game_rankings)
+  total_score = game_rankings.values.reduce(0, :+)
+  total_score / game_rankings.size
+end
 
+sorted_games = game_rankings.sort_by { |game, score| -score }
+avg_top10_score = avg_score(sorted_games.first(10).to_h)
+puts "Average score of top 10 Nintendo 64 games: #{avg_top10_score.round(4)}"
