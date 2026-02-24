@@ -5,5 +5,4 @@ john = 18
 mary = 16
 
 # Your code goes here
-ages = mom + dad + john + mary
-puts ages
+
